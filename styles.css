@@ -1,0 +1,38 @@
+html,
+body {
+	background-color: blue;
+}
+
+#game {
+	flex: row;
+	display: table;
+	clear: both;
+}
+
+#scoreBoard {
+	width: 220;
+	height: 400;
+	position: absolute;
+	padding: 25% 25% 0px;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	border: 5px solid #fff;
+
+	text-shadow: 5px solid black;
+	color: white;
+	font-size: 30px;
+}
+
+canvas {
+	position: absolute;
+	padding: 0;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	border: 5px solid #fff;
+}
